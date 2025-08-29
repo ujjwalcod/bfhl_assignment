@@ -1,18 +1,16 @@
 {
   "name": "bfhl",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "Ujjwal",
-  "type": "commonjs",
   "main": "index.js",
-  "dependencies": {
-    "body-parser": "^2.2.0",
-    "express": "^5.1.0"
-  },
   "scripts": {
-  "dev": "nodemon index.js",
-  "start": "node index.js"
-},
-
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }

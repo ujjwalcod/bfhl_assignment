@@ -6,10 +6,10 @@ const app = express();
 app.use(bodyParser.json());
 
 // ✅ Replace with your details
-const FULL_NAME = "sankalp_sharma";
-const DOB = "04032004"; // format ddmmyyyy
-const EMAIL = "sankalp.sharma2022@vitstudent.ac.in";
-const ROLL_NUMBER = "22BCT0146";
+const FULL_NAME = "ujjwal_mishra";
+const DOB = "10072004"; // format ddmmyyyy
+const EMAIL = "ujjwal.mishra2022@vitstudent.ac.in";
+const ROLL_NUMBER = "22BIT0414";
 
 // Helper to check if string is numeric
 function isNumeric(str) {
